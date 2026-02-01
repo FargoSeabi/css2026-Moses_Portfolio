@@ -96,29 +96,7 @@ st.write("""
 - Presented a functional prototype and technical report to a panel of judges.  
 - Gained practical experience in data-driven tourism solutions and project management.  
 """)
-
-# SKILLS
-st.header("Skills")
-
-cols = st.columns(4)
-
-skills = [
-    {"name": "Python", "image": python_logo},
-    {"name": "JavaScript", "image": js_logo},
-    {"name": "HTML", "image": html_logo},
-    {"name": "CSS", "image": css_logo},
-    {"name": "Git & GitHub", "image": git_logo},
-    {"name": "Basic SQL", "image": sql_logo},
-]
-
-for i, skill in enumerate(skills):
-    col = cols[i % 4]
-    if skill["image"]:
-        col.image(skill["image"], width=60)
-    col.write(f"**{skill['name']}**")
-
 st.markdown("---")
-
 # PROJECTS
 st.header("Projects")
 
@@ -151,23 +129,27 @@ for project in projects:
     st.write(f"🔗 GitHub: [Repo Link]({project['link']})")
 
 st.markdown("---")
+# SKILLS
+st.header("Skills")
 
-# CONTACT
-st.header("Contact Me 📫")
-col1, col2 = st.columns(2)
+cols = st.columns(4)
 
-with col1:
-    st.write("""
-    📧 **Email:** seabimoses7@gmail.com  
-    📍 **Location:** South Africa  
-    💻 **GitHub:** [FargoSeabi](https://github.com/FargoSeabi)  
-    """)
+skills = [
+    {"name": "Python", "image": python_logo},
+    {"name": "JavaScript", "image": js_logo},
+    {"name": "HTML", "image": html_logo},
+    {"name": "CSS", "image": css_logo},
+    {"name": "Git & GitHub", "image": git_logo},
+    {"name": "Basic SQL", "image": sql_logo},
+]
 
-with col2:
-    st.write("""
-Let's connect and collaborate! I am open to internships, projects and junior developer opportunities.
-""")
+for i, skill in enumerate(skills):
+    col = cols[i % 4]
+    if skill["image"]:
+        col.image(skill["image"], width=60)
+    col.write(f"**{skill['name']}**")
 
+st.markdown("---")
 # Footer
 st.markdown("---")
 st.write("Made with ❤️ using Streamlit")
