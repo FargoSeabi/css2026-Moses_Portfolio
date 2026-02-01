@@ -120,7 +120,7 @@ col1, col2 = st.columns(2)
 
 with col1:
     st.write("""
-    📧 **Email:** moses.seabi@example.com  
+    📧 **Email:** seabimoses7@gmail.com  
     📍 **Location:** South Africa  
     💻 **GitHub:** [FargoSeabi](https://github.com/FargoSeabi)  
     """)
