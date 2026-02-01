@@ -52,12 +52,50 @@ st.markdown("---")
 
 # EDUCATION
 st.header("Education")
+
+st.subheader("🎓 Bachelor of Science in Mathematical Sciences")
 st.write("""
-- **Bachelor of Science in Computer Science**, University of Limpopo, South Africa (2023 – Present)  
-- **National Senior Certificate**, Limpopo Province (2018 – 2022)
+**University:** University of Limpopo, South Africa  
+**Duration:** 2023 – Present (Expected graduation: 2026)  
+**Relevant Courses:** Data Structures & Algorithms, Web Development, Databases, Artificial Intelligence, Software Engineering  
+**Achievements:** Dean’s List (2023),Participated in Hackathons and Coding Competitions
+""")
+
+st.subheader("🎓 National Senior Certificate")
+st.write("""
+**School:** Limpopo Province  
+**Duration:** 2018 – 2022  
+**Highlights:**  
+- Top 5% of class  
+- Awarded Best Academic Performance in Class 
+- Participated in provincial science and tech competitions
 """)
 
 st.markdown("---")
+
+# EXPERIENCE & ACHIEVEMENTS
+st.header("Experience & Achievements")
+
+st.subheader("💼 Branch Leader at Geekulcha")
+st.write("""
+**Organization:** Geekulcha – University of Limpopo Branch  
+**Role:** President
+**Duration:** 2024 – Present  
+**Highlights:**  
+- Coordinated tech-related workshops and mentorship programs for students.  
+- Led branch activities during Right to Learn campaigns, assessed by NEC member Cde Penny.  
+- Promoted digital literacy and coding initiatives across campus.  
+""")
+
+st.subheader("🌍 G20 Tourism Hackathon Participant")
+st.write("""
+**Event:** G20 Tourism Hackathon  
+**Date:** September 2025  
+**Highlights:**  
+- Collaborated with an interdisciplinary team to develop tech-based solutions for tourism challenges.  
+- Presented a functional prototype and technical report to a panel of judges.  
+- Gained practical experience in data-driven tourism solutions and project management.  
+""")
 
 # SKILLS
 st.header("Skills")
