@@ -53,12 +53,12 @@ st.header("Skills")
 cols = st.columns(4)
 
 skills = [
-    {"name": "Python", "image": python-pic},
-    {"name": "JavaScript", "image": pic},
-    {"name": "HTML", "image": html},
-    {"name": "CSS", "image": css},
-    {"name": "Git & GitHub", "image": git},
-    {"name": "Basic SQL", "image": mysql},
+     {"name": "Python", "image": python_logo},
+    {"name": "JavaScript", "image": js_logo},
+    {"name": "HTML", "image": html_logo},
+    {"name": "CSS", "image": css_logo},
+    {"name": "Git & GitHub", "image": git_logo},
+    {"name": "Basic SQL", "image": sql_logo},
 ]
 
 for i, skill in enumerate(skills):
