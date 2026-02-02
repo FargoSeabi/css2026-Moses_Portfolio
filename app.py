@@ -28,7 +28,7 @@ sql_logo = load_image("mysql.png")
 col1, col2 = st.columns([1, 3])
 with col1:
     if profile_pic:
-        st.image(profile_pic, width=150)
+        st.image(profile_pic, width=100)
 with col2:
     st.title("Moses Seabi")
     st.subheader("Aspiring Software / Web Developer")
