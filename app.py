@@ -25,7 +25,7 @@ git_logo = load_image("git.png")
 sql_logo = load_image("mysql.png")
 
 # HEADER
-col1, col2 = st.columns([1, 3])
+col1, col2 = st.columns([1, 2])
 with col1:
     if profile_pic:
         st.image(profile_pic, width=200)
