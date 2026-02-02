@@ -126,7 +126,7 @@ projects = [
 for project in projects:
     st.subheader(f"📂 {project['name']}")
     st.write(project["description"])
-    st.write(f"🔗 GitHub: [Repo Link]({project['link']})")
+    st.write(f"🔗 GitHub: [Repository Link]({project['link']})")
 
 st.markdown("---")
 # SKILLS
