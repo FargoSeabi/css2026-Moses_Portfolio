@@ -151,5 +151,5 @@ for i, skill in enumerate(skills):
 
 st.markdown("---")
 # Footer
-st.write("Made with ❤️ using Streamlit")
+st.write("Made with ❤️ using Streamlit by Moses Seabi")
 
